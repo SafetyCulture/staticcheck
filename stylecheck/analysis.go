@@ -4,8 +4,8 @@ import (
 	"honnef.co/go/tools/analysis/facts"
 	"honnef.co/go/tools/analysis/lint"
 	"honnef.co/go/tools/config"
-	"honnef.co/go/tools/internal/passes/buildir"
-	"honnef.co/go/tools/internal/sharedcheck"
+	"honnef.co/go/tools/xinternal/passes/buildir"
+	"honnef.co/go/tools/xinternal/sharedcheck"
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/passes/inspect"

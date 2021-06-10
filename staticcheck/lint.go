@@ -28,11 +28,11 @@ import (
 	"honnef.co/go/tools/go/ir"
 	"honnef.co/go/tools/go/ir/irutil"
 	"honnef.co/go/tools/go/types/typeutil"
-	"honnef.co/go/tools/internal/passes/buildir"
-	"honnef.co/go/tools/internal/sharedcheck"
 	"honnef.co/go/tools/knowledge"
 	"honnef.co/go/tools/pattern"
 	"honnef.co/go/tools/printf"
+	"honnef.co/go/tools/xinternal/passes/buildir"
+	"honnef.co/go/tools/xinternal/sharedcheck"
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/passes/inspect"

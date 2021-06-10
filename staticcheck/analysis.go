@@ -5,7 +5,7 @@ import (
 	"honnef.co/go/tools/analysis/facts/nilness"
 	"honnef.co/go/tools/analysis/facts/typedness"
 	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/internal/passes/buildir"
+	"honnef.co/go/tools/xinternal/passes/buildir"
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/passes/inspect"

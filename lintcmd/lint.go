@@ -20,9 +20,9 @@ import (
 	"honnef.co/go/tools/config"
 	"honnef.co/go/tools/go/buildid"
 	"honnef.co/go/tools/go/loader"
-	"honnef.co/go/tools/internal/cache"
 	"honnef.co/go/tools/lintcmd/runner"
 	"honnef.co/go/tools/unused"
+	"honnef.co/go/tools/xinternal/cache"
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/packages"

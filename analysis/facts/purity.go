@@ -6,7 +6,7 @@ import (
 
 	"honnef.co/go/tools/go/ir"
 	"honnef.co/go/tools/go/ir/irutil"
-	"honnef.co/go/tools/internal/passes/buildir"
+	"honnef.co/go/tools/xinternal/passes/buildir"
 
 	"golang.org/x/tools/go/analysis"
 )

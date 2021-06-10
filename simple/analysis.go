@@ -5,7 +5,7 @@ import (
 	"golang.org/x/tools/go/analysis/passes/inspect"
 	"honnef.co/go/tools/analysis/facts"
 	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/internal/passes/buildir"
+	"honnef.co/go/tools/xinternal/passes/buildir"
 )
 
 var Analyzers = lint.InitializeAnalyzers(Docs, map[string]*analysis.Analyzer{

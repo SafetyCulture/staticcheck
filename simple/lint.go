@@ -17,10 +17,10 @@ import (
 	"honnef.co/go/tools/analysis/report"
 	"honnef.co/go/tools/go/ast/astutil"
 	"honnef.co/go/tools/go/types/typeutil"
-	"honnef.co/go/tools/internal/passes/buildir"
-	"honnef.co/go/tools/internal/sharedcheck"
 	"honnef.co/go/tools/knowledge"
 	"honnef.co/go/tools/pattern"
+	"honnef.co/go/tools/xinternal/passes/buildir"
+	"honnef.co/go/tools/xinternal/sharedcheck"
 
 	"golang.org/x/tools/go/analysis"
 )
